@@ -1,0 +1,52 @@
+@font-face{
+  font-family: sinkinsans;
+  src: url("../fonts/SinkinSans-400Regular.woff");
+}
+@font-face{
+  font-family: sinkinsans;
+  src: url("../fonts/SinkinSans-300Light.woff");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: sinkinsans;
+  src: url("../fonts/SinkinSans-500Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: sinkinsans;
+  src: url("../fonts/SinkinSans-600SemiBold.woff");
+  font-weight: bold;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 7px 15px;
+  width: auto;
+}
+html body {
+    background-color: rgb(24,188,156);
+}
+.jumbotron {
+  background: rgb(238, 238, 238); /* This is for ie8 and below */
+  background: rgba(238, 238, 238, 0.5);
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  font-family: sinkinsans;
+  text-align: center;
+}
+.jumbotron p {
+  font-family:sinkinsans;
+  color:white;
+}
+html {
+  font-family: sinkinsans, sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+table {
+    max-width: none;
+}
